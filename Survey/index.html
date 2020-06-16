@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title" class="text-center">
+            <em>Spectra Survey Form</em>
+        </h1>
+        <p id="description" class="description text-center">
+            Thank you for taking the time to help me improve my content.
+        </p>
+    </header>
+    <div class="container">
+
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="name" id="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label id="number-label" for="number">Age
+                    <span class="clue">(optional)</span></label>
+                <input type="number" name="name" id="number" class="form-control" min="10" max="99" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select id="" class="form-control" name="role" required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="not">Prefer Not to Say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Give your ratings</p>
+                <label>
+                    <input type="radio" name="user-recommend" value="5" class="input-radio">5
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="4" class="input-radio">4
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="3" class="input-radio">3
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="2" class="input-radio">2
+                </label>
+                <label>
+                    <input type="radio" name="user-recommend" value="1" class="input-radio">1
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Which is your favourite post on Spectra?</p>
+
+                <input type="text" name="post" id="post" class="form-control" placeholder="Enter your favourite"
+                    required>
+            </div>
+            <div class="form-group">
+                <p>What would you like to see improved?<span class="clue">
+                        (Check all that apply)
+                    </span></p>
+                <label>
+                    <input type="checkbox" name="prefer" value="Posts-significance" class="input-checkbox">Post
+                    Significance
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="photo-edit" class="input-checkbox">Photo Edit
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="description" class="input-checkbox">Description
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="Posts-tags" class="input-checkbox">Post Tags
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comments" class="input-textarea" cols="30" rows="10"
+                    placeholder="Enter your views here......."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit
+
+                </button>
+            </div>
+        </form>
+    </div>
+    <footer id="footer">
+        <p>Copyright &copy; <strong>Spectra</strong></p>
+    </footer>
+</body>
+
+</html>
