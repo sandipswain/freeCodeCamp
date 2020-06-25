@@ -1,320 +1,328 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url('3.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 105%;
-    font-family: 'Quicksand', sans-serif;
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 105%;
+  font-family: "Quicksand", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: darkturquoise;
+  color: darkturquoise;
 }
 
 .float-clear {
-    clear: both;
+  clear: both;
 }
 
-
 #img-logo {
-    float: left;
-    margin: 5px;
-    width: 10%;
-    border-radius: 50%;
+  float: left;
+  margin: 5px;
+  width: 10%;
+  border-radius: 50%;
 }
 
 #top {
-    float: left;
-    font-family: 'Metal Mania', cursive !important;
-    margin-top: 10px;
-    font-style: oblique;
-    font-size: 25px;
-    text-shadow: 2px 2px red;
+  float: left;
+  font-family: "Metal Mania", cursive !important;
+  margin-top: 10px;
+  font-style: oblique;
+  font-size: 25px;
+  text-shadow: 2px 2px red;
 }
 
 .right li {
-    float: right;
-    list-style: none;
-    margin-right: 10px;
-    margin-top: 15px;
-    font-weight: 800;
-    font-style: italic;
-    font-size: 20px;
-    padding-right: 10px;
-    text-shadow: 2px 2px red;
+  float: right;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 20px;
+  padding-right: 10px;
+  text-shadow: 2px 2px red;
 }
 
 header {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 #img-info {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #main-info {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  border: 5px red solid;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 10px;
+}
+
+.box-1 {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 20px;
+  border: red dotted 5px;
+}
+
+.box-1 h2 {
+  font-family: "Metal Mania", cursive !important;
+  font-style: italic;
+  color: burlywood;
+  padding: 5px;
+  background-color: black;
+}
+
+.box-1 p {
+  color: aqua;
+  filter: brightness(4px);
+  -webkit-filter: brightness(4px);
+}
+
+.box-2 {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box-2 h2 {
+  font-family: "Metal Mania", cursive !important;
+  font-style: italic;
+  color: burlywood;
+  padding: 5px;
+  background-color: black;
+  width: 95.6%;
+}
+
+.box-3 {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.box-3 {
+  font-family: "Metal Mania", cursive !important;
+  font-style: italic;
+  color: burlywood;
+}
+
+.box-3 h1 {
+  padding: 5px;
+  background-color: black;
+}
+
+#img-1 {
+  margin-top: 10px;
+  width: 82%;
+}
+
+#img-2 {
+  width: 82%;
+  margin-top: 10px;
+}
+
+#img-3 {
+  width: 84%;
+  margin-top: 10px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 5px red solid;
+  margin-top: 10px;
+}
+
+figcaption {
+  background-color: black;
+  color: burlywood;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.color a {
+  color: burlywood !important;
+}
+
+.box-4 {
+  margin-top: 40px;
+}
+
+#inp {
+  width: 40%;
+  padding: 20px;
+  border: 5px black solid;
+  border-radius: 4px;
+  background-color: lightsalmon;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: red;
+  font-style: italic;
+  font-family: "Metal Mania", cursive;
+  font-size: 20px;
+}
+
+#btn {
+  width: 35%;
+  padding: 20px;
+  background-color: black;
+  color: orangered;
+  margin: 0em;
+  font-size: 15px;
+  font-family: "Metal Mania", cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.foot a {
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.foot a:hover {
+  color: darkturquoise;
+}
+
+.foot {
+  float: right;
+  padding-right: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  #img-logo {
+    width: 6%;
+  }
+
+  #top {
+    margin-top: 12px;
+  }
+
+  .box-1 {
+    margin: 50px 0;
+    padding: 10px;
+  }
+
+  #sec-3 {
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  .img {
+    border: none;
+  }
+
+  #img-1 {
+    margin-top: 10px;
     width: 50%;
+  }
+
+  #img-2 {
+    width: 40.3%;
+    margin-top: 10px;
+  }
+
+  #img-3 {
+    width: 33.3%;
+    margin-top: 10px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  iframe {
+    width: 80% !important;
+    margin: 0 50px !important;
+    margin-top: 10px !important;
+    padding: 40px !important;
+  }
+
+  #sec-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-1 {
+    padding: 10px;
+    margin: 100px;
+  }
+
+  #img-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #main-info {
+    width: 20%;
     display: flex;
     align-items: center;
     border: 5px red solid;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 10px;
+  }
 }
 
-
-.box-1 {
-    box-sizing: border-box;
-    margin: 20px 0;
-    padding: 20px;
-    border: red dotted 5px;
-
+@media (min-width: 1440px) {
+  iframe {
+    width: 50% !important;
+    margin: 0 180px !important;
+  }
 }
 
-.box-1 h2 {
-    font-family: 'Metal Mania', cursive !important;
-    font-style: italic;
-    color: burlywood;
-    padding: 5px;
-    background-color: black;
-}
-
-.box-1 p {
-    color: aqua;
-    filter: brightness(4px);
-    -webkit-filter: brightness(4px);
-}
-
-.box-2 {
-    box-sizing: border-box;
-    margin: 20px 0;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.box-2 h2 {
-    font-family: 'Metal Mania', cursive !important;
-    font-style: italic;
-    color: burlywood;
-    padding: 5px;
-    background-color: black;
-    width: 95.6%;
-}
-
-.box-3 {
-    box-sizing: border-box;
-    margin-top: 10px;
-}
-
-.box-3 {
-    font-family: 'Metal Mania', cursive !important;
-    font-style: italic;
-    color: burlywood;
-}
-
-.box-3 h1 {
-    padding: 5px;
-    background-color: black;
-}
-
-#img-1 {
-    margin-top: 10px;
-    width: 82%;
-}
-
-#img-2 {
-    width: 82%;
-    margin-top: 10px;
-
-}
-
-#img-3 {
-    width: 84%;
-    margin-top: 10px;
-
-}
-
-.img {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    border: 5px red solid;
-    margin-top: 10px;
-}
-
-figcaption {
-    background-color: black;
-    color: burlywood;
-    font-style: italic;
-    padding: 2px;
-    text-align: center;
-}
-
-.color a {
-    color: burlywood !important;
-}
-
-.box-4 {
-    margin-top: 40px;
-}
-
-
-
-#inp {
-    width: 40%;
-    padding: 20px;
-    border: 5px black solid;
-    border-radius: 4px;
-    background-color: lightsalmon;
-    font-size: 20px;
-
-}
-
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: red;
-    font-style: italic;
-    font-family: 'Metal Mania', cursive;
-    font-size: 20px;
-}
-
-#btn {
-    width: 35%;
-    padding: 20px;
-    background-color: black;
-    color: orangered;
-    margin: 0em;
+@media (max-width: 375px) {
+  .right li {
     font-size: 15px;
-    font-family: 'Metal Mania', cursive;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-style: italic;
-    cursor: pointer;
-}
+    padding-right: 2px;
+  }
+  iframe {
+    width: 80% !important;
+    margin: 0 15px !important;
+    margin-top: 10px !important;
+    padding: 10px !important;
+    height: 80% !important;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 15px;
+  }
 
-.foot a {
-    color: whitesmoke;
-    font-style: italic;
-}
-
-.foot a:hover {
-    color: darkturquoise;
-}
-
-.foot {
-    float: right;
-    padding-right: 10px;
-}
-
-footer {
-    margin-top: 30px;
-    color: whitesmoke;
-    background-color: black;
-
-}
-
-@media(min-width:768px) {
-    #img-logo {
-        width: 6%;
-    }
-
-    #top {
-        margin-top: 12px;
-    }
-
-    .box-1 {
-
-        margin: 50px 0;
-        padding: 10px;
-
-    }
-
-    #sec-3 {
-        display: flex;
-        border: none;
-        justify-content: space-around;
-        padding: 5px;
-    }
-
-    .img {
-        border: none;
-    }
-
-    #img-1 {
-        margin-top: 10px;
-        width: 50%;
-    }
-
-    #img-2 {
-        width: 40.3%;
-        margin-top: 10px;
-
-    }
-
-    #img-3 {
-        width: 33.3%;
-        margin-top: 10px;
-
-    }
-
-    .container {
-        width: 90%;
-    }
-
-    iframe {
-        width: 80% !important;
-        margin: 0 50px !important;
-        margin-top: 10px !important;
-        padding: 40px !important;
-    }
-
-    #sec-1 {
-
-        display: flex;
-        justify-content: center;
-    }
-
-    .box-1 {
-        padding: 10px;
-        margin: 100px;
-    }
-
-    #img-info {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    #main-info {
-        width: 20%;
-        display: flex;
-        align-items: center;
-        border: 5px red solid;
-        border-radius: 10px;
-    }
-}
-
-@media(min-width:1440px) {
-    iframe {
-        width: 50% !important;
-        margin: 0 180px !important;
-    }
+  #btn {
+    width: 38%;
+    padding: 10px;
+  }
+  #inp {
+    padding: 10px;
+  }
 }
