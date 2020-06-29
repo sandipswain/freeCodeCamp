@@ -112,7 +112,7 @@ code {
         max-height: 270px;
         border: none;
         z-index: 1;
-        border-bottom: 2px solid;
+        border-bottom: 1px solid;
     }
 
     #main-doc {
